@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuizJS</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="quiz" id="quiz">
+    <div class="quiz-questions" id="questions"></div>
+
+    <div class="quiz-indicator" id="indicator">1/10</div>
+
+    <div class="quiz-results" id="results">
+      <div class="quiz-results-item">
+        <div class="quiz-results-item__question">Вопрос 1</div>
+        <ul class="quiz-results-item__answers">
+          <li>Ответ 1</li>
+          <li>Ответ 2</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="quiz-controls">
+      <button class="btn-next" id="btn-next" disabled>Далее</button>
+      <button class="btn-restart" id="btn-restart">С начала</button>
+    </div>
+  </div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
